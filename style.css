@@ -1,12 +1,12 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
 body{
-    font-family: Roboto,sans-serif
+    font-family: "Roboto", serif;
 }
 
 ul{
@@ -107,4 +107,27 @@ header ul li a {
     margin-bottom: 10px;
     background-image: url("images/randomInformation.jpg");
     background-size: cover;
+}
+
+
+
+.quoteSection{
+    display:flex;
+    align-items:center;
+    padding: 100px 200px;
+    background: #E5E7EB;
+
+}
+.quoteSection .text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+.quoteSection .author{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: auto;
+width: fit-content;
 }
