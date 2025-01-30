@@ -12,6 +12,10 @@ body{
 ul{
     list-style:none;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 .firstSection{
     background: #1F2937;
@@ -34,6 +38,9 @@ header ul{
     align-items:center;
     gap:20px;
     color:#fff;
+}
+header ul li a {
+    color :#E5E7EB;
 }
 .firstSection .landing{
     display:flex;
@@ -61,9 +68,43 @@ header ul{
     margin: 10px 0;
     font-weight: 700;
     font-size: 16px
-
+    
 }
 .landing .image{
-    flex: 2 100px;
-    background: grey;
+    flex: 2 ;
+    background-image: url('images/landing.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+
+.secondSection{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 200px 100px;
+    flex-direction: column;
+    gap: 50px;
+}
+.secondSection .title{
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.secondSection .cards{
+    display:flex;
+    align-items:center;
+    gap: 60px;
+}
+.cards .card{
+    text-align:center;
+}
+
+.cards .card .image{
+    border: solid 1px #000;
+    min-height: 180px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url("images/randomInformation.jpg");
+    background-size: cover;
 }
