@@ -167,3 +167,12 @@ width: fit-content;
     font-weight: 900;
     border-radius: 5px;
 }
+
+footer{
+    background: #1F2937;
+    padding: 40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: #E5E7EB
+}
