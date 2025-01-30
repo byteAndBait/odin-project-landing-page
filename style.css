@@ -131,3 +131,39 @@ header ul li a {
     margin-left: auto;
 width: fit-content;
 }
+
+
+
+.productSection{
+    padding: 100px 150px;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.productSection .container{
+    background: #3882F6;
+    padding: 30px 80px;
+    display: flex;
+    align-items:center;
+    gap: 80px;
+    border-radius: 5px;
+    
+}
+.productSection .container .title{
+    font-size: 28px;
+    font-weight: 900;
+    color: #F9FaF8;
+}
+.productSection .container p{
+    color: #E5E7EB;
+}
+.productSection .container button{
+    padding: 10px 30px;
+    background: transparent;
+    color: #E5E7EB;
+    font-size:16px;
+    border: solid 2px #E5E7EB;
+    font-weight: 900;
+    border-radius: 5px;
+}
